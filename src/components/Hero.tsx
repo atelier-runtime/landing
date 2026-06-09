@@ -34,8 +34,9 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="mt-6 w-full max-w-2xl text-sm leading-relaxed text-neutral-400 md:text-base md:leading-relaxed">
-          Open source context runtime for coding agents. Ships as an MCP server,
-          CLI, SDK middleware, and terminal UI.
+          Open source context runtime for coding agents. Reuses context,
+          detects loops, tracks costs, and supervises tools across every
+          major agent host.
         </p>
 
         {/* CTA buttons */}
