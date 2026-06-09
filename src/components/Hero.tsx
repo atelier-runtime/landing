@@ -34,10 +34,9 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="mt-6 w-full max-w-2xl text-sm leading-relaxed text-neutral-400 md:text-base md:leading-relaxed">
-MCP server, SDK middleware, and terminal UI that give every agent
-           shared procedures, failure rescue, loop detection, cost tracking,
-           and cross-vendor routing &mdash; across Claude Code, Codex, Copilot,
-           LangChain, OpenAI SDK, Gemini ADK, and any MCP host.
+Open-source runtime for AI agents &mdash; context reuse, cost tracking,
+           failure rescue, and cross-vendor routing across every major model
+           provider and MCP host.
         </p>
 
         {/* CTA buttons */}
