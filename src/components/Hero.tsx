@@ -34,9 +34,8 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="mt-6 w-full max-w-2xl text-sm leading-relaxed text-neutral-400 md:text-base md:leading-relaxed">
-Open-source runtime for AI agents &mdash; context reuse, cost tracking,
-           failure rescue, and cross-vendor routing across every major model
-           provider and MCP host.
+          Open source context runtime for coding agents. Ships as an MCP server,
+          CLI, SDK middleware, and terminal UI.
         </p>
 
         {/* CTA buttons */}
