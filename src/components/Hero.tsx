@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-grid opacity-40" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center text-center">
+      <div className="relative z-10 flex w-full max-w-4xl flex-col items-center self-center text-center">
         {/* Eyebrow */}
         <div className="mb-6 inline-flex items-center gap-2 rounded border border-brand/30 bg-brand/5 px-3 py-1.5">
           <span className="inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
@@ -24,7 +24,7 @@ export default function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="text-3xl font-bold leading-tight tracking-tight text-neutral-100 sm:text-4xl md:text-6xl md:leading-[1.1]">
+        <h1 className="w-full text-3xl font-bold leading-tight tracking-tight text-neutral-100 sm:text-4xl md:text-6xl md:leading-[1.1]">
           Runtime Engineering
           <br />
           <span className="bg-gradient-to-r from-brand-300 via-brand-400 to-purple-400 bg-clip-text text-transparent">
@@ -33,7 +33,7 @@ export default function Hero() {
         </h1>
 
         {/* Subtitle */}
-        <p className="mt-6 max-w-2xl text-sm leading-relaxed text-neutral-400 md:text-base md:leading-relaxed">
+        <p className="mt-6 w-full max-w-2xl text-sm leading-relaxed text-neutral-400 md:text-base md:leading-relaxed">
 MCP server + SDK middleware that gives every agent shared
            procedures, failure rescue, loop detection, cost tracking, and
            cross-vendor routing &mdash; across Claude Code, Codex, Copilot,
