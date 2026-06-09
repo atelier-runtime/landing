@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="mb-6 inline-flex items-center gap-2 rounded border border-brand/30 bg-brand/5 px-3 py-1.5">
           <span className="inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
           <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-brand-300">
-            Open Source &mdash; MIT License
+            Open source
           </span>
         </div>
 
