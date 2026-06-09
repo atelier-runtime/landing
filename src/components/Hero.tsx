@@ -3,7 +3,7 @@ import GitHubIcon from "./GitHubIcon";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pt-20 pb-24">
+    <section className="relative flex min-h-dvh min-h-screen flex-col items-center justify-center px-6 pt-6 pb-16 sm:pt-20 sm:pb-24">
       {/* Background gradient orbs */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="glow-purple absolute -top-40 left-1/2 h-[300px] w-[300px] -translate-x-1/2 sm:h-[500px] sm:w-[500px] md:h-[700px] md:w-[700px]" />
