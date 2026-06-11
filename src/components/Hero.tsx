@@ -34,9 +34,9 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="mt-6 w-full max-w-2xl text-sm leading-relaxed text-neutral-400 md:text-base md:leading-relaxed">
-          Open source context runtime for coding agents. Reuses context,
-          detects loops, tracks costs, and supervises tools across every
-          major agent host.
+          Open source context runtime for coding agents. Reuses context, detects
+          loops, tracks costs, and supervises tools across every major agent
+          host.
         </p>
 
         {/* CTA buttons */}
@@ -56,7 +56,7 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="https://atelier.beseam.com/docs/installation"
+            href="https://docs.atelier.ws/installation"
             className="inline-flex w-full items-center justify-center gap-2 border border-neutral-800 px-6 py-3 text-sm uppercase tracking-widest text-neutral-500 no-underline transition hover:border-neutral-600 hover:text-neutral-300 sm:w-auto"
           >
             Documentation
@@ -76,17 +76,32 @@ export default function Hero() {
             </div>
             <pre className="overflow-x-auto border-0 bg-transparent p-3 text-[10px] leading-relaxed text-neutral-300 sm:p-5 sm:text-xs md:text-sm">
               <span className="text-emerald-400">$</span>{" "}
-              <span className="text-neutral-100">curl -fsSL</span> https://raw.githubusercontent.com/atelier-runtime/atelier/main/scripts/install.sh
+              <span className="text-neutral-100">curl -fsSL</span>{" "}
+              https://install.atelier.ws
               <br />
-              <span className="text-neutral-500">  → installing atelier (CLI)</span>
+              <span className="text-neutral-500">
+                {" "}
+                → installing atelier (CLI)
+              </span>
               <br />
-              <span className="text-neutral-500">  → installing atelierd (background service)</span>
+              <span className="text-neutral-500">
+                {" "}
+                → installing atelierd (background service)
+              </span>
               <br />
-              <span className="text-neutral-500">  → installing atelier-mcp (MCP server)</span>
+              <span className="text-neutral-500">
+                {" "}
+                → installing atelier-mcp (MCP server)
+              </span>
               <br />
-              <span className="text-neutral-500">  → initializing runtime store...</span>
+              <span className="text-neutral-500">
+                {" "}
+                → initializing runtime store...
+              </span>
               <br />
-              <span className="mt-1 inline-block text-emerald-400">✓ Atelier ready</span>
+              <span className="mt-1 inline-block text-emerald-400">
+                ✓ Atelier ready
+              </span>
               <br />
               <span className="text-emerald-400">$</span>{" "}
               <span className="text-neutral-100">atelier --version</span>

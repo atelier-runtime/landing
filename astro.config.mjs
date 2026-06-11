@@ -10,5 +10,5 @@ export default defineConfig({
     }),
   ],
   output: "static",
-  site: "https://atelier.beseam.com",
+  site: "https://atelier.ws",
 });

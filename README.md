@@ -23,7 +23,7 @@ Static output goes to `dist/`.
 
 ## Deploy
 
-The site is hosted at **https://atelier.beseam.com**. Push to `main` to deploy via the configured CI/CD pipeline.
+The main site is hosted at **https://atelier.ws**. Push to `main` to deploy via the configured CI/CD pipeline. Documentation lives at **https://docs.atelier.ws** (deployed separately).
 
 ## Contact
 

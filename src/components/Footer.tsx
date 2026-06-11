@@ -5,29 +5,50 @@ const FOOTER_LINKS = [
   {
     title: "Docs",
     links: [
-      { label: "Installation", href: "https://atelier.beseam.com/docs/installation" },
-      { label: "Quickstart", href: "https://atelier.beseam.com/docs/quickstart" },
-      { label: "CLI Reference", href: "https://atelier.beseam.com/docs/cli" },
-      { label: "Troubleshooting", href: "https://atelier.beseam.com/docs/troubleshooting" },
+      { label: "Installation", href: "https://docs.atelier.ws/installation" },
+      { label: "Quickstart", href: "https://docs.atelier.ws/quickstart" },
+      { label: "CLI Reference", href: "https://docs.atelier.ws/cli" },
+      {
+        label: "Troubleshooting",
+        href: "https://docs.atelier.ws/troubleshooting",
+      },
     ],
   },
   {
     title: "Hosts",
     links: [
-      { label: "Claude Code", href: "https://atelier.beseam.com/docs/hosts/claude-code-install" },
-      { label: "Codex CLI", href: "https://atelier.beseam.com/docs/hosts/codex-install" },
-      { label: "Copilot", href: "https://atelier.beseam.com/docs/hosts/copilot-install" },
-      { label: "All Hosts", href: "https://atelier.beseam.com/docs/hosts/all-agent-clis" },
+      {
+        label: "Claude Code",
+        href: "https://docs.atelier.ws/hosts/claude-code-install",
+      },
+      {
+        label: "Codex CLI",
+        href: "https://docs.atelier.ws/hosts/codex-install",
+      },
+      {
+        label: "Copilot",
+        href: "https://docs.atelier.ws/hosts/copilot-install",
+      },
+      {
+        label: "All Hosts",
+        href: "https://docs.atelier.ws/hosts/all-agent-clis",
+      },
     ],
   },
   {
     title: "Community",
     links: [
       { label: "GitHub", href: "https://github.com/atelier-runtime/atelier" },
-      { label: "Issues", href: "https://github.com/atelier-runtime/atelier/issues" },
-      { label: "Discussions", href: "https://github.com/atelier-runtime/atelier/discussions" },
+      {
+        label: "Issues",
+        href: "https://github.com/atelier-runtime/atelier/issues",
+      },
+      {
+        label: "Discussions",
+        href: "https://github.com/atelier-runtime/atelier/discussions",
+      },
       { label: "Contact", href: "mailto:contact@atelier.ws" },
-      { label: "Blog", href: "https://atelier.beseam.com/blog" },
+      { label: "Blog", href: "https://atelier.ws/blog" },
     ],
   },
   {
@@ -57,7 +78,9 @@ export default function Footer() {
               </span>
             </a>
             <p className="mt-4 text-xs leading-relaxed text-neutral-500">
-              Open-source runtime engineering for agents. MCP server + SDK middleware for context reuse, failure rescue, cost tracking, and cross-vendor routing.
+              Open-source runtime engineering for agents. MCP server + SDK
+              middleware for context reuse, failure rescue, cost tracking, and
+              cross-vendor routing.
             </p>
             <div className="mt-4 flex items-center gap-3">
               <a
@@ -67,9 +90,7 @@ export default function Footer() {
               >
                 <GitHubIcon size={19} />
               </a>
-              <span className="text-[10px] text-neutral-600">
-                MIT License
-              </span>
+              <span className="text-[10px] text-neutral-600">MIT License</span>
             </div>
           </div>
 
@@ -98,10 +119,12 @@ export default function Footer() {
         <div className="mt-12 border-t border-neutral-900 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 text-xs text-neutral-600 md:flex-row">
             <span>
-              &copy; {new Date().getFullYear()} Atelier. Open source under the MIT License.
+              &copy; {new Date().getFullYear()} Atelier. Open source under the
+              MIT License.
             </span>
             <span className="inline-flex items-center gap-1">
-              Built with <Heart size={10} className="text-red-400" /> for agents everywhere.
+              Built with <Heart size={10} className="text-red-400" /> for agents
+              everywhere.
             </span>
           </div>
         </div>

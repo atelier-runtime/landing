@@ -5,17 +5,15 @@ import GitHubIcon from "./GitHubIcon";
 const NAV_LINKS = [
   { label: "Savings", href: "#savings" },
   { label: "Hosts", href: "#hosts" },
-  { label: "Docs", href: "https://atelier.beseam.com/docs/installation" },
-  { label: "Blog", href: "https://atelier.beseam.com/blog" },
+  { label: "Docs", href: "https://docs.atelier.ws/installation" },
+  { label: "Blog", href: "https://atelier.ws/blog" },
 ];
 
 export default function Nav() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav
-      className="fixed top-0 left-0 right-0 z-50 border-b border-neutral-800 bg-neutral-950/90 backdrop-blur-md transition-all duration-300"
-    >
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-neutral-800 bg-neutral-950/90 backdrop-blur-md transition-all duration-300">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 no-underline">
@@ -40,7 +38,7 @@ export default function Nav() {
           ))}
           <div className="flex items-center gap-3">
             <a
-                href="https://github.com/atelier-runtime/atelier"
+              href="https://github.com/atelier-runtime/atelier"
               className="text-neutral-400 transition hover:text-neutral-200"
               aria-label="GitHub"
             >
@@ -68,7 +66,9 @@ export default function Nav() {
       {/* Mobile menu */}
       <div
         className={`overflow-hidden transition-all duration-300 md:hidden ${
-          mobileOpen ? "max-h-64 border-t border-neutral-800 bg-neutral-950/95" : "max-h-0"
+          mobileOpen
+            ? "max-h-64 border-t border-neutral-800 bg-neutral-950/95"
+            : "max-h-0"
         }`}
       >
         <div className="px-6 py-4">
@@ -85,11 +85,11 @@ export default function Nav() {
             ))}
             <div className="mt-2 flex items-center gap-3 pt-3 border-t border-neutral-800">
               <a
-              href="https://github.com/atelier-runtime/atelier"
+                href="https://github.com/atelier-runtime/atelier"
                 className="text-neutral-400 transition hover:text-neutral-200"
                 aria-label="GitHub"
               >
-            <GitHubIcon size={18} />
+                <GitHubIcon size={18} />
               </a>
               <a
                 href="#install"

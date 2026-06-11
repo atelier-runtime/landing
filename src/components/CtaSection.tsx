@@ -17,7 +17,8 @@ export default function CtaSection() {
           <span className="text-brand-300">burning budget on repeat work?</span>
         </h2>
         <p className="mt-4 text-sm leading-relaxed text-neutral-400">
-          One install. One MCP runtime. Every agent host. Measure every token saved.
+          One install. One MCP runtime. Every agent host. Measure every token
+          saved.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
@@ -36,7 +37,7 @@ export default function CtaSection() {
             Star on GitHub
           </a>
           <a
-            href="https://atelier.beseam.com/docs/installation"
+            href="https://docs.atelier.ws/installation"
             className="inline-flex items-center gap-2 border border-neutral-800 px-6 py-3 text-sm uppercase tracking-widest text-neutral-500 no-underline transition hover:border-neutral-600 hover:text-neutral-300"
           >
             <BookOpen size={16} />

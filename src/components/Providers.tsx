@@ -53,7 +53,7 @@ export default function Providers() {
 
         <div className="mt-10 text-center">
           <a
-            href="https://atelier.beseam.com/docs/providers"
+            href="https://docs.atelier.ws/providers"
             className="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest text-brand-300 no-underline transition hover:text-brand-200"
           >
             View provider documentation →

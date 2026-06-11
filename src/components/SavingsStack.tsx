@@ -4,28 +4,32 @@ const CATEGORIES = [
   {
     icon: Repeat,
     title: "Context Reuse",
-    description: "Reuse procedures across sessions so agents don't rediscover the same patterns. Every cache hit is a cold read avoided.",
+    description:
+      "Reuse procedures across sessions so agents don't rediscover the same patterns. Every cache hit is a cold read avoided.",
     savings: "Avoids 1–3 rounds of exploration per repeat task",
     badge: "−3 rounds",
   },
   {
     icon: Sparkles,
     title: "Smarter Tool Use",
-    description: "Outline-mode reads, cached searches, batch edits with rollback, and token-budgeted results — fewer redundant tool calls.",
+    description:
+      "Outline-mode reads, cached searches, batch edits with rollback, and token-budgeted results — fewer redundant tool calls.",
     savings: "Read compression up to 85% on large files",
     badge: "−85% tokens",
   },
   {
     icon: ShieldCheck,
     title: "Failure Prevention",
-    description: "Detect thrashing loops, rescue from known error patterns, and surface fixes before the agent burns context budget.",
+    description:
+      "Detect thrashing loops, rescue from known error patterns, and surface fixes before the agent burns context budget.",
     savings: "Eliminates duplicate debugging cycles",
     badge: "−retries",
   },
   {
     icon: Route,
     title: "Model Optimization",
-    description: "Route each task to the right model — cheap for lookups, capable for complex work — across every major vendor.",
+    description:
+      "Route each task to the right model — cheap for lookups, capable for complex work — across every major vendor.",
     savings: "Simple work to cheap models, hard work to capable ones",
     badge: "−cost",
   },
@@ -33,7 +37,10 @@ const CATEGORIES = [
 
 export default function SavingsStack() {
   return (
-    <section id="savings" className="relative border-t border-neutral-900 px-6 py-24">
+    <section
+      id="savings"
+      className="relative border-t border-neutral-900 px-6 py-24"
+    >
       <div className="pointer-events-none absolute inset-0 bg-grid opacity-20" />
       <div className="relative z-10 mx-auto max-w-5xl">
         <div className="text-center">
@@ -44,7 +51,8 @@ export default function SavingsStack() {
             How Atelier Saves LLM Cost
           </h2>
           <p className="mt-3 text-sm text-neutral-400">
-            Atelier reduces token spend at every layer of the agent loop — context loading, tool calls, model selection, and recovery.
+            Atelier reduces token spend at every layer of the agent loop —
+            context loading, tool calls, model selection, and recovery.
           </p>
         </div>
 
@@ -79,10 +87,11 @@ export default function SavingsStack() {
 
         <div className="mt-8 border border-neutral-800 bg-neutral-950/40 p-5 text-center">
           <p className="text-xs leading-relaxed text-neutral-500">
-            All savings are recorded into the run ledger and visible in the CLI, MCP, and dashboard.
+            All savings are recorded into the run ledger and visible in the CLI,
+            MCP, and dashboard.
             <br />
             <a
-              href="https://atelier.beseam.com/docs"
+              href="https://docs.atelier.ws"
               className="text-brand-300 no-underline transition hover:text-brand-200"
             >
               See the full savings breakdown in the docs →

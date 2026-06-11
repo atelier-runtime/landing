@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Copy, Check } from "lucide-react";
 
-const INSTALL_CMD = "curl -fsSL https://raw.githubusercontent.com/atelier-runtime/atelier/main/scripts/install.sh | bash";
+const INSTALL_CMD = "curl -fsSL https://install.atelier.ws | bash";
 
 export default function InstallCmd() {
   const [copied, setCopied] = useState(false);
@@ -17,7 +17,10 @@ export default function InstallCmd() {
   };
 
   return (
-    <section id="install" className="border-t border-neutral-900 bg-neutral-950/40 px-6 py-20">
+    <section
+      id="install"
+      className="border-t border-neutral-900 bg-neutral-950/40 px-6 py-20"
+    >
       <div className="mx-auto max-w-3xl text-center">
         <div className="text-[10px] font-bold uppercase tracking-[0.25em] text-neutral-500">
           Get Started
@@ -55,7 +58,9 @@ export default function InstallCmd() {
           </div>
           <div className="mt-3 flex flex-wrap items-center justify-center gap-3 text-xs text-neutral-600">
             <span className="text-emerald-500/70">✓ Installs CLI + MCP</span>
-            <span className="text-emerald-500/70">✓ atelierd background service</span>
+            <span className="text-emerald-500/70">
+              ✓ atelierd background service
+            </span>
             <span className="text-emerald-500/70">✓ Host integrations</span>
           </div>
         </div>

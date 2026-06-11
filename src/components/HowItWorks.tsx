@@ -30,7 +30,8 @@ export default function HowItWorks() {
             How It Works
           </h2>
           <p className="mt-3 text-sm text-neutral-400">
-            Plugs into any agent host through MCP or SDK. Runs locally, no cloud dependency.
+            Plugs into any agent host through MCP or SDK. Runs locally, no cloud
+            dependency.
           </p>
         </div>
 
@@ -58,7 +59,7 @@ export default function HowItWorks() {
         {/* Link to docs */}
         <div className="mt-10 text-center">
           <a
-            href="https://atelier.beseam.com/docs"
+            href="https://docs.atelier.ws"
             className="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest text-brand-300 no-underline transition hover:text-brand-200"
           >
             See the full architecture in the docs

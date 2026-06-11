@@ -1,19 +1,46 @@
 const HOSTS = [
-  { name: "Claude Code", logo: "/logos/hosts/claude.svg", desc: "MCP + skills + agents + plugin hooks" },
-  { name: "Codex CLI", logo: "/logos/hosts/codex.svg", desc: "MCP + AGENTS.md + hooks" },
-  { name: "Copilot", logo: "/logos/hosts/copilot.svg", desc: "MCP + instructions" },
+  {
+    name: "Claude Code",
+    logo: "/logos/hosts/claude.svg",
+    desc: "MCP + skills + agents + plugin hooks",
+  },
+  {
+    name: "Codex CLI",
+    logo: "/logos/hosts/codex.svg",
+    desc: "MCP + AGENTS.md + hooks",
+  },
+  {
+    name: "Copilot",
+    logo: "/logos/hosts/copilot.svg",
+    desc: "MCP + instructions",
+  },
   { name: "opencode", logo: "/logos/hosts/opencode.svg", desc: "MCP + Agent" },
   { name: "Cursor IDE", logo: "/logos/hosts/cursor.svg", desc: "MCP" },
   { name: "Antigravity", logo: "/logos/hosts/antigravity.svg", desc: "MCP" },
   { name: "Hermes Agent", logo: "/logos/hosts/hermes-agent.svg", desc: "MCP" },
-  { name: "Gemini ADK", logo: "/logos/hosts/gemini.svg", desc: "SDK middleware" },
-  { name: "LangChain", logo: "/logos/hosts/langchain.svg", desc: "SDK middleware" },
-  { name: "OpenAI SDK", logo: "/logos/hosts/openai.svg", desc: "SDK middleware" },
+  {
+    name: "Gemini ADK",
+    logo: "/logos/hosts/gemini.svg",
+    desc: "SDK middleware",
+  },
+  {
+    name: "LangChain",
+    logo: "/logos/hosts/langchain.svg",
+    desc: "SDK middleware",
+  },
+  {
+    name: "OpenAI SDK",
+    logo: "/logos/hosts/openai.svg",
+    desc: "SDK middleware",
+  },
 ];
 
 export default function HostsList() {
   return (
-    <section id="hosts" className="relative border-t border-neutral-900 px-6 py-24">
+    <section
+      id="hosts"
+      className="relative border-t border-neutral-900 px-6 py-24"
+    >
       <div className="pointer-events-none absolute inset-0 bg-grid opacity-20" />
       <div className="relative z-10 mx-auto max-w-5xl">
         <div className="text-center">
@@ -24,8 +51,8 @@ export default function HostsList() {
             Works with Every Major Agent Host
           </h2>
           <p className="mt-3 text-sm text-neutral-400">
-            Atelier integrates through MCP, SDK middleware, and instruction files.
-            One runtime, every host.
+            Atelier integrates through MCP, SDK middleware, and instruction
+            files. One runtime, every host.
           </p>
         </div>
 
@@ -63,7 +90,7 @@ export default function HostsList() {
 
         <div className="mt-8 text-center">
           <a
-            href="https://atelier.beseam.com/docs/hosts/all-agent-clis"
+            href="https://docs.atelier.ws/hosts/all-agent-clis"
             className="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest text-brand-300 no-underline transition hover:text-brand-200"
           >
             View full host documentation →
